@@ -25,7 +25,15 @@
             <div id="menu_wrapper" />
         </div>
 
+        <div id="main">
+            <%-- OBJECT DATA SOURCE --%>
 
+            <%-- VALIDATION SUMMARY --%>
+
+            <%-- LIST VIEW --%>
+
+
+        </div>
         
     </div>
     </form>
