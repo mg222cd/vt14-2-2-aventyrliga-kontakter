@@ -53,6 +53,11 @@ public partial class _Default : System.Web.UI.Page
             AddErrorMessage("Ett fel inträffade då kontakten skulle läggas till. HÄR");
             e.ExceptionHandled = true;
         }
+        else
+        {
+            LabelUpload.Visible = true;
+            LabelUpload.Text = "Ny kontakt lades till!";
+        }
     }
 
     //updating:
@@ -83,6 +88,11 @@ public partial class _Default : System.Web.UI.Page
             AddErrorMessage("Ett fel inträffade då kontakten skulle uppdateras.");
             e.ExceptionHandled = true;
         }
+        else
+        {
+            LabelUpload.Visible = true;
+            LabelUpload.Text = "Kontakt uppdaterades!";
+        }
     }
 
     //deleted:
@@ -93,6 +103,11 @@ public partial class _Default : System.Web.UI.Page
         {
             AddErrorMessage("Ett fel inträffade då kontakten skulle raderas.");
             e.ExceptionHandled = true;
+        }
+        else
+        {
+            LabelUpload.Visible = true;
+            LabelUpload.Text = "Kontakt raderades!";
         }
     }
 

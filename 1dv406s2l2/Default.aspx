@@ -5,6 +5,8 @@
 <head id="Head1" runat="server">
     <title>Äventyrliga kontakter</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -19,7 +21,11 @@
                 <h1 id="logo_text">
                     Äventyrliga kontakter
                 </h1>
+                <%-- UPPLADNINGS-MEDDELANDE --%>
+                <asp:Label ID="LabelUpload" runat="server" Text="" Visible="false" CssClass="resultlabel">
+                </asp:Label>
             </div>
+                
             <div id="menu_wrapper" />
         </div>
         <div id="main">
