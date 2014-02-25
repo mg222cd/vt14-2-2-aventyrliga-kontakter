@@ -166,6 +166,12 @@
                 </tr>
             </EditItemTemplate>
         </asp:ListView>
+                    <%-- Paging --%>
+                    <asp:DataPager runat="server" ID="ContactsPager" PageSize="20" PagedControlID="ContactListView">
+                        <Fields>
+                             <asp:NumericPagerField ButtonType="Link"  NextPageText="&gt;" PreviousPageText="&lt;" />
+                        </Fields>
+                     </asp:DataPager>
         </div>
         <div id="footer">
         Marike Grinde, mg222cd
