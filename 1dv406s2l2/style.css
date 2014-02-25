@@ -1,0 +1,240 @@
+﻿@import "reset.css";
+@import "typographic-base.css";
+
+/* Styles
+-----------------------------------------------------------*/
+html, body, form, fieldset
+{
+    margin: 0;
+    padding: 0;
+}
+form label
+{
+    cursor: pointer;
+}
+h1
+{
+    color: #333333;
+    font-size:2em;
+}
+body
+{
+    background-color: #FFFFFF;
+    font-size:76%;
+}
+a:link, a:visited
+{
+    background: none repeat scroll 0 0 #FFF500;
+    color: #333333;
+    text-decoration: none;
+}
+input
+{
+    margin: 0;
+}
+#page
+{
+    margin: 0 auto;
+    padding: 0;
+    width: 652px;
+}
+#header
+{
+    margin-bottom: 7px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+#header #header_wrapper
+{
+    border-left: 1px solid black;
+    height: 80px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    position: relative;
+}
+#header #top
+{
+    font-size: 1em;
+    font-style: italic;
+    line-height: 1.25em;
+    margin: -2px 0 0;
+    padding: 0;
+}
+#header #top li
+{
+    background: url("Images/arrow-right.png") no-repeat scroll right center transparent;
+    display: inline;
+    margin: 0;
+    padding: 0 1.6em 0 0;
+}
+#header #top li.last
+{
+    background-image: none;
+    padding: 0;
+}
+#header #logo_text
+{
+    bottom: 0;
+    font-family: "Helvetica Neue" ,Arial,Helvetica,Geneva,sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: -0.23em;
+    padding-right: 62px;
+    position: absolute;
+}
+#header #logo_symbol
+{
+    bottom: 0;
+    position: absolute;
+    right: 1px;
+}
+#header #logo_text a img, #header #logo_symbol img
+{
+    border: medium none;
+    display: block;
+}
+#header #logo_text #small_logo_text
+{
+    font-size:.5em;
+}
+#header #menu_wrapper
+{
+    background: none repeat scroll 0 0 #DDDDD5;
+    clear: both;
+    height: 21px;
+    overflow: hidden;
+}
+#main
+{
+    font-size: 1.15em;
+    padding: 0 8px;
+}
+#main input
+{
+    font-size: 100%;
+}
+#footer
+{
+    border-top: 1px solid #333333;
+    clear: both;
+    margin: 3em auto 2em;
+    padding: 0.43em 0;
+    width: 652px;
+}
+
+/* Styles for tables
+-----------------------------------------------------------*/
+table
+{
+    border: 1px solid #333;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+th
+{
+    background: #333;
+    color: #FFF;
+}
+td, th
+{
+    padding: 5px 3px;
+    text-align: left;
+    vertical-align: middle;
+}
+tr:nth-child(even)
+{
+    background: #EEEEE8;
+}
+
+/* Styles for forms
+-----------------------------------------------------------*/
+form .editor-label
+{
+    color: #666666;
+    margin: 0 0 .1em 0;
+}
+
+form .editor-field
+{
+    margin: 0 0 1em 0;
+}
+
+/* Styles for lists
+-----------------------------------------------------------*/
+ul
+{
+    list-style-type: disc;
+    margin: 1em 0 1em 3em;
+}
+li
+{
+    display: list-item;
+    margin: .3em 0;
+}
+
+/* Styles for fieldset
+-----------------------------------------------------------*/
+fieldset
+{
+    border: 1px solid #A9A9A9;
+    padding: .35em .75em .35em .625em;
+}
+legend
+{
+    color: #666666;
+}
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    background-color: #ffeeee;
+    border: 1px solid #ff0000;
+}
+
+.validation-summary-errors
+{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+/* Additional styles 
+-----------------------------------------------------------*/
+.clear
+{
+    clear:both;
+}
+
+.hidden
+{
+    display:none;
+}
+input
+{
+    width:90%;
+}
+input.postal-code
+{
+    width:6em;
+}
+td:last-child
+{
+    white-space:nowrap;
+}
